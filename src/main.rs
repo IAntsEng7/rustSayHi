@@ -4,6 +4,7 @@ mod basic {
     pub mod guessing_game_2;
     pub mod guessing_game_3;
     pub mod guessing_game_4;
+    pub mod guessing_game_5;
 }
 
 use basic::guessing_game;
@@ -11,6 +12,7 @@ use basic::guessing_game_1;
 use basic::guessing_game_2;
 use basic::guessing_game_3;
 use basic::guessing_game_4;
+use basic::guessing_game_5;
 
 
 fn main() {
@@ -19,6 +21,7 @@ fn main() {
     // guessing_game_1::placeholder_test();
     // guessing_game_2::guessing_game_by_random_number();
     // guessing_game_3::guessing_game_and_check();
-    guessing_game_4::guessing_game_until_correct();
+    // guessing_game_4::guessing_game_until_correct();
+    guessing_game_5::guessing_game_compare_by_match();
 }
 
