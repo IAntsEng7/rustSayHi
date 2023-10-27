@@ -9,6 +9,7 @@ mod basic {
 
 mod variable {
     pub mod variable_immutable;
+    pub mod variable_constants;
 }
 
 use basic::guessing_game;
@@ -18,6 +19,7 @@ use basic::guessing_game_3;
 use basic::guessing_game_4;
 use basic::guessing_game_5;
 use variable::variable_immutable;
+use variable::variable_constants;
 
 fn main() {
 
@@ -31,6 +33,7 @@ fn main() {
     // guessing_game_5::guessing_game_compare_by_match();
 
     // variable
-    variable_immutable::immutable_test();
+    // variable_immutable::immutable_test();
+    variable_constants::constants_test();
 }
 
