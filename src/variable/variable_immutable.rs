@@ -9,4 +9,10 @@ pub fn immutable_test(){
     println!("2. var_1: Cannot assign a new value to an immutable variable more than once.");
     var_2 = "Assign second times.";
     println!("2. var_2: {var_2}")
+
+    // Output:
+    // 1. var_1: Only can assign once!!
+    // 1. var_2: Try to assign multiple times
+    // 2. var_1: Cannot assign a new value to an immutable variable more than once.
+    // 2. var_2: Assign second times.
 }
