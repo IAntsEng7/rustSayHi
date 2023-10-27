@@ -7,9 +7,8 @@ mod basic {
     pub mod guessing_game_5;
 }
 
-mod variable {
-    pub mod variable_immutable;
-    pub mod variable_constants;
+mod common_concepts {
+    pub mod variable;
 }
 
 use basic::guessing_game;
@@ -18,8 +17,7 @@ use basic::guessing_game_2;
 use basic::guessing_game_3;
 use basic::guessing_game_4;
 use basic::guessing_game_5;
-use variable::variable_immutable;
-use variable::variable_constants;
+use common_concepts::variable;
 
 fn main() {
 
@@ -32,8 +30,10 @@ fn main() {
     // guessing_game_4::guessing_game_until_correct();
     // guessing_game_5::guessing_game_compare_by_match();
 
-    // variable
-    // variable_immutable::immutable_test();
-    variable_constants::constants_test();
+    // common_concepts
+    // variable::immutable_test();
+    // variable::constants_test();
+    // variable::shadowing_test_1();
+    variable::shadowing_test_2();
 }
 
