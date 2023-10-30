@@ -11,6 +11,7 @@ mod common_concepts {
     pub mod variable;
     pub mod data_type;
     pub mod function;
+    pub mod control_flow;
 }
 
 use basic::guessing_game;
@@ -22,6 +23,7 @@ use basic::guessing_game_5;
 use common_concepts::variable;
 use common_concepts::data_type;
 use common_concepts::function;
+use common_concepts::control_flow;
 
 fn main() {
 
@@ -43,6 +45,14 @@ fn main() {
 
     // data_type::compound_types();
 
-    function::function_test();
+    // function::function_test();
+
+    // control_flow::ctrl_flow_if();
+    // control_flow::ctrl_flow_if_else();
+    // control_flow::ctrl_flow_if_else_if();
+    // control_flow::ctrl_flow_loop();
+    // control_flow::ctrl_flow_loop_break();
+
+
 }
 
