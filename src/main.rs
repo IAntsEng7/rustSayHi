@@ -10,6 +10,7 @@ mod basic {
 mod common_concepts {
     pub mod variable;
     pub mod data_type;
+    pub mod function;
 }
 
 use basic::guessing_game;
@@ -20,6 +21,7 @@ use basic::guessing_game_4;
 use basic::guessing_game_5;
 use common_concepts::variable;
 use common_concepts::data_type;
+use common_concepts::function;
 
 fn main() {
 
@@ -32,11 +34,15 @@ fn main() {
     // guessing_game_4::guessing_game_until_correct();
     // guessing_game_5::guessing_game_compare_by_match();
 
+
     // common_concepts
     // variable::immutable_test();
     // variable::constants_test();
     // variable::shadowing_test_1();
     // variable::shadowing_test_2();
-    data_type::compound_types();
+
+    // data_type::compound_types();
+
+    function::function_test();
 }
 
