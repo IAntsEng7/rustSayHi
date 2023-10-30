@@ -52,7 +52,7 @@ fn main() {
     // control_flow::ctrl_flow_if_else_if();
     // control_flow::ctrl_flow_loop();
     // control_flow::ctrl_flow_loop_break();
-
-
+    // control_flow::ctrl_flow_while();
+    // control_flow::ctrl_flow_for();
 }
 

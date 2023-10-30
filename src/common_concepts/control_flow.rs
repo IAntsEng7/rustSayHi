@@ -46,3 +46,30 @@ pub fn ctrl_flow_loop_break() {
     // Loop Print: 6
     // Loop Print: 7
 }
+
+pub fn ctrl_flow_while() {
+    let mut count = 1;
+    while count <= VAR1 {
+        println!("while - count at :{count}");
+        count += 1;
+    }
+    // Output:
+    // while - count at :1
+    // while - count at :2
+    // while - count at :3
+    // while - count at :4
+    // while - count at :5
+}
+
+pub fn ctrl_flow_for() {
+    let array = [10, 20, 30, 40, 50];
+    for element in array {
+        println!("element: {element}");
+    }
+    // Output:
+    // element: 10
+    // element: 20
+    // element: 30
+    // element: 40
+    // element: 50
+}
