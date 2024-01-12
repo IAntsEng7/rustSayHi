@@ -14,6 +14,10 @@ mod common_concepts {
     pub mod control_flow;
 }
 
+mod practice{
+    pub mod convert_temperatures;
+}
+
 use basic::guessing_game;
 use basic::guessing_game_1;
 use basic::guessing_game_2;
@@ -24,6 +28,7 @@ use common_concepts::variable;
 use common_concepts::data_type;
 use common_concepts::function;
 use common_concepts::control_flow;
+use crate::practice::convert_temperatures::convert_temperature;
 
 fn main() {
 
@@ -54,5 +59,19 @@ fn main() {
     // control_flow::ctrl_flow_loop_break();
     // control_flow::ctrl_flow_while();
     // control_flow::ctrl_flow_for();
+
+    // practice
+    // practice::convert_temperatures
+    let fahrenheit_temperature = 98.6;
+    let celsius_temperature = convert_temperature(fahrenheit_temperature, "fahrenheit", "celsius");
+
+    match celsius_temperature {
+        Some(result) => {
+            println!("{} Fahrenheit is equal to {} Celsius", fahrenheit_temperature, result);
+        }
+        None => {
+            println!("Invalid unit conversion");
+        }
+    }
 }
 
