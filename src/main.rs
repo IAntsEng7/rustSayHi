@@ -14,7 +14,7 @@ mod common_concepts {
     pub mod control_flow;
 }
 
-mod practice{
+mod practice {
     pub mod convert_temperatures;
 }
 
@@ -28,7 +28,7 @@ use common_concepts::variable;
 use common_concepts::data_type;
 use common_concepts::function;
 use common_concepts::control_flow;
-use crate::practice::convert_temperatures::convert_temperature;
+use practice::convert_temperatures;
 
 fn main() {
 
@@ -63,7 +63,7 @@ fn main() {
     // practice
     // practice::convert_temperatures
     let fahrenheit_temperature = 98.6;
-    let celsius_temperature = convert_temperature(fahrenheit_temperature, "fahrenheit", "celsius");
+    let celsius_temperature = convert_temperatures::convert_temperature(fahrenheit_temperature, "fahrenheit", "celsius");
 
     match celsius_temperature {
         Some(result) => {
