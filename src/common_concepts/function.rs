@@ -10,7 +10,6 @@ pub fn function_test() {
     println!("with_param return: {with_param}")
     // Output:
     // with_param return: 12
-
 }
 
 fn no_param_test() -> String {

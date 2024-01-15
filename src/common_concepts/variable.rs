@@ -52,7 +52,7 @@ pub fn shadowing_test_1() {
     // Last x: 8
 }
 
-pub fn shadowing_test_2(){
+pub fn shadowing_test_2() {
     let spaces = "     ";
     println!("1. What is <{spaces}>");
     let spaces = spaces.len();

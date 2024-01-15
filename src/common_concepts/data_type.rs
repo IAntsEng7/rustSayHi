@@ -22,7 +22,7 @@ pub fn scalar_types() {
     let integer1 = 1;
     let integer2 = -2;
     let integer3: u64 = 6; // assign data type
-    // let integer4: u32 = -1; // The literal `-1` does not fit into the type `u32`
+                           // let integer4: u32 = -1; // The literal `-1` does not fit into the type `u32`
 
     // float
     let float1 = 3.0;

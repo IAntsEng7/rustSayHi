@@ -4,19 +4,31 @@ const CONDITION1: bool = VAR1 + VAR2 == 10;
 const CONDITION2: bool = VAR1 + VAR2 != 10;
 
 pub fn ctrl_flow_if() {
-    if CONDITION2 { println!("Correct!!") };
+    if CONDITION2 {
+        println!("Correct!!")
+    };
     // Output:
     // Correct!!
 }
 
 pub fn ctrl_flow_if_else() {
-    if CONDITION1 { println!("Correct!!") } else { println!("Error!!") }
+    if CONDITION1 {
+        println!("Correct!!")
+    } else {
+        println!("Error!!")
+    }
     // Output:
     // Error!!
 }
 
 pub fn ctrl_flow_if_else_if() {
-    if CONDITION1 { println!("CONDITION1 Correct!!") } else if CONDITION2 { println!("CONDITION2 Correct!!") } else { println!("Error") };
+    if CONDITION1 {
+        println!("CONDITION1 Correct!!")
+    } else if CONDITION2 {
+        println!("CONDITION2 Correct!!")
+    } else {
+        println!("Error")
+    };
     // Output:
     // CONDITION2 Correct!!
 }

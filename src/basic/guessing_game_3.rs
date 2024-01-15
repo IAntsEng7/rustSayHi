@@ -13,7 +13,8 @@ pub fn guessing_game_and_check() {
 
     let mut guess_num = String::new();
 
-    io::stdin().read_line(&mut guess_num)
+    io::stdin()
+        .read_line(&mut guess_num)
         .expect("Failed to read line");
 
     // 將使用者輸入的字符串轉換為整數，並處理可能的錯誤
